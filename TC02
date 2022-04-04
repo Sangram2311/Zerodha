@@ -1,0 +1,16 @@
+package Package;
+
+public class class2 {
+
+	public static void m3() {
+		
+		System.out.println("This is static method");	
+	}
+	
+	public void m4() {
+		
+		System.out.println("This is non-static method");
+	}
+	
+	
+}
