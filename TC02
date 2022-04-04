@@ -10,6 +10,7 @@ public class class2 {
 	public void m4() {
 		
 		System.out.println("This is non-static method");
+		System.out.println("This is non-static method");
 	}
 	
 	
