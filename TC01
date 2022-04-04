@@ -1,0 +1,20 @@
+package Package2;
+
+public class class2 {
+
+	public static void test1() {
+		
+		System.out.println("This is static method");
+		
+	}
+	
+	public void test2() {
+		
+	System.out.println("This is non-static method");
+	
+		
+	}
+	
+	
+	
+}
