@@ -1,0 +1,26 @@
+package Scroll;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import Configu.Configuration;
+
+public class B {
+
+public static void main(String[] args) throws InterruptedException {
+		
+		System.setProperty("webdriver.chrome.driver", Configuration.driverpath);
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.selenium.dev/downloads/");
+		driver.manage().window().maximize();
+		Thread.sleep(2000);
+		
+		WebElement about = driver.findElement(By.xpath("(//a[text()='About Selenium'])[2]"));
+	
+		Thread.sleep(2000);
+		about.click();
+  }
+
+}
